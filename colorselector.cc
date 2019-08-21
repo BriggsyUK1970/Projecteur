@@ -4,7 +4,7 @@
 #include <QColorDialog>
 
 ColorSelector::ColorSelector(QWidget* parent)
-  : ColorSelector(Qt::black, parent)
+  : ColorSelector(Qt::transparent, parent)
 {
 }
 
