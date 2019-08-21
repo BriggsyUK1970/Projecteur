@@ -33,7 +33,7 @@ protected:
   virtual QSGNode* updatePaintNode(QSGNode* oldNode, UpdatePaintNodeData* updatePaintNodeData) override;
 
 private:
-  QColor m_color = Qt::black;
+  QColor m_color = Qt::transparent;
   int m_points = 3;
   int m_innerRadius = 50;
 };
@@ -63,6 +63,6 @@ protected:
   virtual QSGNode* updatePaintNode(QSGNode* oldNode, UpdatePaintNodeData* updatePaintNodeData) override;
 
 private:
-  QColor m_color = Qt::black;
+  QColor m_color = Qt::transparent;
   int m_sides = 3;
 };
